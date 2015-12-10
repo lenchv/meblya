@@ -1,0 +1,206 @@
+/****************		<AUTH-FORM>			******************/
+
+a.authorization-link {
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #929a84;
+	font-size: .9em;
+}
+
+a.authorization-link:hover {
+	color: #A2Aba4;
+	border-bottom: 1px dotted #929a84;
+	cursor: pointer;
+}
+
+.modal-wrapper.active {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100, 100, 100, 0.75);
+	z-index: 3;
+}
+.my-auth-forgot-password,
+.my-auth-form {
+	position: absolute;
+	top: -340px;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	margin-left: -150px;
+	background-color: #bdcba2;
+	border-radius: 10px;
+	opacity: 0;
+
+	-webkit-transition-property: opacity, top;
+	-o-transition-property: opacity, top;
+	transition-property: opacity, top;
+
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+
+	box-shadow: 0 0px 20px #5c6941;
+	z-index: 4;
+
+	padding: 20px 5px
+}
+
+.my-auth-forgot-password.active,
+.my-auth-form.active {
+	top: 20%;
+	display: block;
+	opacity: 1;
+}
+
+/*.my-auth-forgot-password form,*/
+.my-auth-form form {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	margin-top: 10%;
+}
+
+/*.my-auth-forgot-password form>div,*/
+.my-auth-form form>div {
+	float: left;
+	width: 25%;
+	text-align: right;
+	margin-bottom: 10px;
+	height: 2em;
+	line-height: 2em;
+	color: #f0f2eb;
+}
+
+/*.my-auth-forgot-password form input[type=text],
+.my-auth-forgot-password form [type=password],*/
+.my-auth-form form input[type=text],
+.my-auth-form form input[type=password] {
+	margin-bottom: 10px;
+	height: 2em;
+	line-height: 2em;
+	font-size: 1em;
+	border-radius: .5em;
+	border: none;
+	padding: 0 5px;
+	background-color: #e0e7d3;
+	color: #5c6941;
+}
+/*.my-auth-forgot-password form input[type=text]:focus,
+.my-auth-forgot-password form [type=password]:focus,*/
+.my-auth-form form input[type=text]:focus,
+.my-auth-form form input[type=password]:focus {
+	outline: none;
+}	
+/*.my-auth-forgot-password form input[type=checkbox],*/
+.my-auth-form form input[type=checkbox] {
+	width: 13px;
+	margin-bottom: 10px;
+}
+
+.my-auth-forgot-password form input[type=submit],
+.my-auth-form form input[type=submit] {
+	margin-bottom: 10px;
+	width: 100px;
+	height: 2em;
+	font-size: 1em;
+	background-color: #5c6941;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 0 5px #5c6941;
+	color: #e8eedc;
+}
+
+.my-auth-forgot-password form input[type=submit]:hover,
+.my-auth-form form input[type=submit]:hover {
+	box-shadow: 0 0 10px #5c6941;
+}
+
+.my-auth-forgot-password form input[type=submit]:active,
+.my-auth-form form input[type=submit]:active {
+	box-shadow: 0 0 0px #5c6941;
+}
+.my-auth-forgot-password form input[type=submit]:focus,
+.my-auth-form form input[type=submit]:focus {
+	outline: none;
+}
+
+/*.my-auth-forgot-password form label,*/
+.my-auth-form form label {
+	color: #f0f2eb;
+}
+
+/*.my-auth-forgot-password a,*/
+.my-auth-form a {
+	color: #5c6941;
+}
+
+.my-auth-form-error-message {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+	height: auto;
+	text-align: center;
+	min-height: 24px;
+
+	font-size: .9em;
+	color: #FF5252;
+	background-color: rgba(255,205,210, 0.85);
+	box-shadow: 0 0px 20px #F44336;
+
+	border-radius: 1em;
+	-webkit-transition: all 1s ease-in 4s;
+	-o-transition: all 1s ease-in 4s;
+	transition: all 1s ease-in 4s;
+	padding: 0 24px;
+
+	z-index: 5;
+}
+
+.my-auth-form-error-message .ic-error {
+	background-image: url(images/ic_error.svg);
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -12px;
+}
+
+form.my-short-user-info {
+	text-align: center;
+	margin: 5px 0;
+}
+form.my-short-user-info a,
+form.my-short-user-info input[type=submit] {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #929a84;
+
+	text-decoration: none;
+	font-size: .8em;
+}
+
+form.my-short-user-info a:hover,
+form.my-short-user-info input[type=submit]:hover {
+	color: #A2Aba4;
+	border-bottom: 1px dotted #929a84;
+}
+
+form.my-short-user-info input[type=submit]:focus {
+	outline: none;
+}
+
+
+/****************		</AUTH-FORM>			******************/
+/*
+div.modal-wrapper .my-auth-forgot-password {
+	position: absolute;
+	top: 0;
+}*/

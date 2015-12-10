@@ -1,0 +1,67 @@
+/*div.modern-page-navigation { 
+	padding: 0.5em 0;}
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	padding-left: 0.75em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+div.modern-page-navigation a.modern-page-previous { 
+	border-right-width: 1px; 
+	border-right-style: solid; 
+	border-left: none; }
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+	border-left: none; 
+	padding-left: 0.5em; }
+span.modern-page-current { 
+	font-weight: bold; }
+div.modern-page-navigation a, 
+span.modern-page-current, 
+div.modern-page-navigation a.modern-page-previous, 
+span.modern-page-dots { 
+	border-color: #cdcdcd; }*/
+
+.pages-container {
+	font-family: "Times New Roman", serif;
+	float: right;
+}
+.pages-container .pages {
+	text-align: right;
+	display: inline;
+}
+
+
+.pages-container .pages a,
+.pages-container .pages  span.modern-page-current {
+	line-height: 22px;
+	text-decoration: none;
+	font-style: italic;
+	color: #5c6941;
+}
+.pages-container .pages  span.modern-page-current {
+	color: #ADBD8E;
+}
+.pages-container .pages  span.modern-page-current:before,
+.pages-container .pages a:before{
+	content: " | ";
+}
+.pages-container .pages  span.modern-page-current:last-child:after,
+.pages-container .pages a:last-child:after {
+	content: " |";
+}
+
+.pages-container a.all-items{
+	display: inline-block;
+	width: 70px;
+	font-size: .75em;
+	line-height: 1em;
+	margin-left: 5px;
+	font-style: italic;
+	color: #5c6941;
+	text-decoration: underline;
+}

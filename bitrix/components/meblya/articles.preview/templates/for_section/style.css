@@ -1,0 +1,18 @@
+/**Переопределение стилей .default */
+div#articles .title-box .articles-title-text {
+	left: 0;
+}
+
+div#articles .wrapper {
+	width: 100%;
+}
+
+div#articles .wrapper .article {
+	width: 355px;
+	margin: 0 4px;
+}
+
+div#articles .wrapper .article>img{
+	max-width: 120px;
+	height: auto;
+}

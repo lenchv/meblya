@@ -1,0 +1,45 @@
+ul.my-menu-section a {
+	text-decoration: none;
+	color: #364616;
+}
+ul.my-menu-section {
+	margin: 0 10px;
+	font-size: 1.1em;
+	color: #364616;
+}
+
+ul.my-menu-section>li {
+	list-style: none;
+	font-weight: bold;
+	margin: 10px 0;
+	font-stretch: condensed;
+}
+
+ul.my-menu-section>li>a:hover {
+	color: #91a371;
+}
+/**Развернутое меню*/
+ul.my-menu-section>li.active a{
+	color: #91a371;
+}
+
+ul.my-menu-section>li.active>ul {
+	display: block;	
+}
+
+ul.my-menu-section>li.active>ul>li.active {
+	text-decoration: underline;
+}
+/**********************/
+ul.my-menu-section>li>ul {
+	display: none;
+	list-style: none;
+	font-weight: 100;
+	font-size: .8em;
+	text-indent: 1em;
+	margin-bottom: 5px;
+	font-stretch: normal;
+}
+ul.my-menu-section>li>ul>li:not(.active) a:hover {
+	border-bottom: 1px dashed #91a371;
+}

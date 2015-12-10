@@ -1,0 +1,135 @@
+/****			<ARTICLES>				******/
+#articles {
+	width: 100%;
+	/*height: 334px;*/
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+	clear: right;
+	bottom: 0;
+}
+
+#articles .title-box {
+	height: 85px;
+}
+
+#articles .title-box .articles-title-text {
+	position: absolute;
+	left: 226px;
+	z-index: 9;
+	color: #5c6941;
+}
+
+#articles .title-box .articles-title-text div span{
+	font-size: 3em;
+	line-height: 1em;
+	background-color: #fff;
+	padding: 0 20px;
+}
+#articles .title-box .articles-title-text div:last-child {
+	font-size: 3em;
+	line-height: .1em;
+	font-family: "Liana-Regular", Helvetica, sans-serif;
+	text-transform: lowercase;
+}
+
+#articles .articles-line{
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 22px;
+	background-color: #adbd8e;
+}
+
+#articles .wrapper {
+	width: 95%;
+	height: 224px;
+	margin: auto;
+}
+
+#articles .wrapper .article {
+	width: 454px;
+	height: 224px;
+	border: 1px solid #5c6941;
+	float: left;
+	margin: 0 6.5px;
+}
+#articles .wrapper .article .article-date,
+#articles .wrapper .article .topic {
+	margin: 4px 0;
+	height: 2em;
+	color: #6f7b57;
+}
+#articles .wrapper .article .article-date{
+	line-height: 2em;
+	float: left;
+	padding-left: 50px;
+	padding-right: 5px;
+	font-size: 0.85em;
+	background-color: #d0dabe;
+}
+
+#articles .wrapper .article .topic{
+	font-size: 1em;
+	font-weight: 100;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#articles .wrapper .article>img{
+	float: left;
+	margin: 0 14px 14px 14px;
+	clear: left;
+}
+
+#articles .wrapper .article p.topic-text {
+	padding: .25em 1em 0 1em;
+	height: 153px;
+	font-size: .9em;
+	color: #6f7b57;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+#articles .wrapper .article img+p.topic-text {
+	padding: .25em 0 0 0;
+	font-size: .9em;
+	/*height: 153px;
+	font-size: .9em;
+	color: #6f7b57;
+	overflow: hidden;
+	margin-bottom: 0;*/
+}
+
+#articles .wrapper .article a {
+	text-decoration: none;
+	color: #6f7b57;
+	height: 24px;
+	width: 77px;
+	float: right;
+	background-color: #d0dabe;
+
+	line-height: 24px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+#articles .line-bottom {
+	width: 95%;
+	margin-top: 20px;
+	border-top: 1px solid #5c6941;
+}
+
+#articles .line-bottom a{
+	float: right;
+	width: auto;
+	height: 24px;
+	background-color: #d0dabe;
+	color: #6f7b57;
+	font-size: 0.9em;
+	line-height: 24px;
+	text-align: center;
+	padding: 0 10px;
+	text-decoration: none;
+}
+/****			</ARTICLES>				******/

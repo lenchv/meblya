@@ -1,0 +1,140 @@
+div.bx-auth-reg input.bx-auth-input {vertical-align:middle;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+
+/**** Это копия из шаблона компонента для авторизации   ****/
+.modal-wrapper.active {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100, 100, 100, 0.75);
+	z-index: 1;
+}
+
+
+.my-reg-form {
+	position: absolute;
+	top: -600px;
+	left: 50%;
+	width: 500px;
+	height: 500px;
+	margin-left: -300px;
+	background-color: #bdcba2;
+	border-radius: 10px;
+	padding: 0 10px;
+	opacity: 0;
+	overflow-y: auto;
+	-webkit-transition-property: opacity, top;
+	-o-transition-property: opacity, top;
+	transition-property: opacity, top;
+
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+
+	box-shadow: 0 0px 20px #5c6941;
+	z-index: 2;
+}
+
+.my-reg-form.active {
+	top: 20%;
+	display: block;
+	opacity: 1;
+}
+
+.my-reg-form form {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	margin-top: 10%;
+}
+
+.my-reg-form form>div {
+	float: left;
+	width: 25%;
+	text-align: right;
+	margin-bottom: 10px;
+	height: 2em;
+	line-height: 2em;
+	color: #f0f2eb;
+}
+
+.my-reg-form form input[type=text],
+.my-reg-form form input[type=password] {
+	margin-bottom: 10px;
+	height: 2em;
+	line-height: 2em;
+	font-size: 1em;
+	border-radius: .5em;
+	border: none;
+	padding: 0 5px;
+	background-color: #e0e7d3;
+	color: #5c6941;
+}
+.my-reg-form form input[type=text]:focus,
+.my-reg-form form input[type=password]:focus {
+	outline: none;
+}	
+
+.my-reg-form form input[type=checkbox] {
+	width: 13px;
+	margin-bottom: 10px;
+}
+
+.my-reg-form form input[type=submit] {
+	margin-bottom: 10px;
+	width: 100px;
+	height: 2em;
+	font-size: 1em;
+	background-color: #5c6941;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 0 5px #5c6941;
+	color: #e8eedc;
+}
+
+.my-reg-form form input[type=submit]:hover {
+	box-shadow: 0 0 10px #5c6941;
+}
+
+.my-reg-form form input[type=submit]:active {
+	box-shadow: 0 0 0px #5c6941;
+}
+.my-reg-form form input[type=submit]:focus {
+	outline: none;
+}
+
+.my-reg-form form label {
+	color: #f0f2eb;
+}
+
+.my-reg-form a {
+	color: #5c6941;
+}
+
+/***********************************************************/
+
+div.my-auth-form-error-message {
+	-webkit-transition: all 1s ease-in 4s;
+	-o-transition: all 1s ease-in 4s;
+	transition: all 1s ease-in 4s;
+}
+
+.my-reg-form form td.my-register-form-sign {
+	color: #f0f2eb;
+}
+
+.my-reg-form form td.my-register-form-title {
+	color: #5c6941;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+
+.my-reg-form form span.starrequired {
+	color: #33691E;
+}

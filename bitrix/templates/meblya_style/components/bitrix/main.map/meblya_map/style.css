@@ -1,0 +1,140 @@
+/*ul.map-level-0 a {
+	font-weight: bold;
+}
+
+ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
+	font-weight: normal;
+}
+
+.map-columns td {
+	vertical-align: top;
+} */
+
+/****			<DETAILED SITE MAP>				******/
+#detailed-site-map {
+	width: 100%;
+	height: 710px;
+	position: relative;
+}
+
+#detailed-site-map .site-map-title {
+	width: 100%;
+	height: 76px;
+	position: relative;
+	margin-top: 90px;
+}
+
+#detailed-site-map .site-map-title div {
+}
+
+#detailed-site-map .site-map-title .title-left {
+	margin-top: 19px;
+	width: 33%;
+	height: 31px;
+	background-color: #adbd8e;
+	float: left;
+}
+
+#detailed-site-map .site-map-title .title-middle {
+	width: 246px;
+	height: 77px;
+	background-image: url(/bitrix/templates/meblya_style/images/site_map/site_map.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#detailed-site-map .site-map-title .title-right {
+	width: 42%;
+	height: 14px;
+	position: relative;
+	top: 62px;
+	background-color: #adbd8e;
+	float: right;
+}
+
+#detailed-site-map .site-map-title .title-detailed-sign {
+	position: absolute;
+	top: -67px;
+	background-image: url(/bitrix/templates/meblya_style/images/site_map/detailed_sign.png);
+	background-repeat: no-repeat;
+	width: 436px;
+	height: 97px;
+}
+
+#detailed-site-map .wrapper {
+	width: 90%;
+	height: 612px;	
+	position: relative;
+	clear: left;
+	margin: 10px auto;
+}
+
+#detailed-site-map .wrapper .map-item {
+	position: relative;
+	width: 190px;
+	height: 295px;
+	border: 1px solid #24310a;
+	margin: 5px 11px;
+	float: left;
+	text-align: left;	
+}
+/*#detailed-site-map .wrapper .map-item:hover {
+	-webkit-box-shadow: 0px 0px 10px black;
+	box-shadow: 0px 0px 10px black;
+	cursor: pointer;
+
+	position: ;
+	height: auto;
+}*/
+
+#detailed-site-map .wrapper .map-item img{
+	margin: 10px;
+	width: 168px;
+	height: auto;
+}
+
+#detailed-site-map .wrapper .map-item .menu-title {
+	margin: 0 10px 0 10px;
+}
+#detailed-site-map .wrapper .map-item a {
+	text-decoration: none;
+	color: #24310a;
+}
+#detailed-site-map .wrapper .map-item .menu-title a {
+	border-bottom: 2px solid #a9aca4;
+}
+#detailed-site-map .wrapper .map-item .menu-title a:hover {
+	border-bottom: 2px solid #24310a;
+}
+#detailed-site-map .wrapper .map-item ul:hover{
+	position: absolute;
+	height: auto;
+	z-index: 1000;
+	background-color: #fff;
+}
+#detailed-site-map .wrapper .map-item ul {
+	list-style-type: none;
+	margin: 5px 10px;
+	font-size: .85em;
+	height: 101px;
+	overflow: hidden;
+}
+
+#detailed-site-map .wrapper .map-item ul li {
+	line-height: 1.5em;	
+}
+
+#detailed-site-map .wrapper .map-item ul li>a:hover {
+	border-bottom: 1px dashed #24310a;
+}
+
+#detailed-site-map .wrapper .map-item>a {
+	line-height: 1.3em;
+	font-size: .8em;
+	background-color: #adbd8e;
+	padding: 0 10px;
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+}
+/****			</DETAILED SITE MAP>				******/

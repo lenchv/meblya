@@ -1,0 +1,4 @@
+<?
+	$sSectionName = "Текстиль";
+	$arDirProperties = Array();
+?>
